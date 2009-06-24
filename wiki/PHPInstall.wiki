@@ -1,0 +1,51 @@
+#summary Installation of PHP implementation
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Tempest for PHP supports installation as a PEAR package, either from a remote PEAR channel or from a local archive file.  It can also be installed manually.
+
+----
+
+== Channel PEAR Install ==
+
+*Note:* These commands may have to be run with administrator priviledges.  On a `*`nix system, this means they must be `sudo`-ed or executed as root.
+
+This will add the channel to your PEAR install.  This must only be done once.
+{{{
+pear channel-discover pear.digitalflophouse.com
+}}}
+
+This will install the latest (bleeding-edge) package.
+{{{
+pear install digitalflophouse/package_name-alpha
+}}}
+
+Upgrading to a new version is equally simple.
+{{{
+pear upgrade digitalflophouse/package_name-alpha
+}}}
+
+
+== Local PEAR Install ==
+
+Assuming you have downloaded the PEAR package to your local filesystem, you can install it via PEAR supplying the file location.
+{{{
+pear install /home/jdoe/path/to/Tempest-xxxx.yy.zz.tgz
+}}}
+
+
+== Manual Install ==
+
+Manual installation is equally simple.  Extract the archive, and copy the appropriate files to a location within your PHP include path.
+{{{
+tar -xvzf Tempest-xxxx.yy.zz.tgz
+cp Tempest-xxxx.yy.zz/* /home/jdoe/php/include/path/
+}}}
+
+----
+
+== More Information ==
+
+For additional information, please see the PEAR Manual:
+http://pear.php.net/manual/
