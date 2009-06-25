@@ -48,4 +48,4 @@ cp Tempest-xxxx.yy.zz/* /home/jdoe/php/include/path/
 == More Information ==
 
 For additional information, please see the PEAR Manual:
-http://pear.php.net/manual/
+  * http://pear.php.net/manual/
