@@ -18,12 +18,12 @@ pear channel-discover pear.digitalflophouse.com
 
 This will install the latest (bleeding-edge) package.
 {{{
-pear install digitalflophouse/package_name-alpha
+pear install digitalflophouse/Tempest-alpha
 }}}
 
 Upgrading to a new version is equally simple.
 {{{
-pear upgrade digitalflophouse/package_name-alpha
+pear upgrade digitalflophouse/Tempest-alpha
 }}}
 
 
