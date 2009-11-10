@@ -1,0 +1,14 @@
+#summary API and Documentation
+#labels Featured
+
+= API Specifications =
+
+The current API specifications are available [http://gitorious.org/tempest/core/blobs/raw/master/doc/API.txt here], in human-readable Markdown format.
+
+= License =
+
+Tempest is released under the open source [http://gitorious.org/tempest/core/blobs/raw/master/LICENSE MIT License]
+
+= Algorithms =
+
+Rough outlines of the various image and/or color processing algorithms used are [http://gitorious.org/tempest/core/trees/master/doc/algorithms also available].
