@@ -3,11 +3,11 @@
 
 = API Specifications =
 
-The current API specifications are available [http://gitorious.org/tempest/core/blobs/raw/master/doc/API.txt here], in human-readable Markdown format.
+The current API specifications are available [http://gitorious.org/tempest/core/blobs/master/doc/API.txt here], in human-readable Markdown format.
 
 = License =
 
-Tempest is released under the open source [http://gitorious.org/tempest/core/blobs/raw/master/LICENSE MIT License]
+Tempest is released under the open source [http://gitorious.org/tempest/core/blobs/master/LICENSE MIT License]
 
 = Algorithms =
 
