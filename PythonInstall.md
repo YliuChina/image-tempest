@@ -1,0 +1,29 @@
+# Introduction #
+
+Tempest for Python supports installation as a _distutils_ package.
+
+
+---
+
+
+## Installation ##
+
+Extract the archive and change into the resulting directory
+```
+tar -xvzf Tempest-xxxx.yy.zz.tar.gz
+cd Tempest-xxxx.yy.zz/
+```
+
+Use the _distutils_ `install` command, noting that this normally requires `sudo` or root privileges
+```
+python setup.py install
+```
+
+
+---
+
+
+## More Information ##
+
+For additional information, please see the Python Module Installation page:
+  * http://docs.python.org/install/index.html
